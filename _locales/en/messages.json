@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Subtitler",
+    "description": "The name of the application"
+  },
+  
+  "appDescription": {
+    "message": "Add subtitles to videos",
+    "description": "The description of the application"
+  }
+}
