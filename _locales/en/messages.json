@@ -7,5 +7,19 @@
   "appDescription": {
     "message": "Add subtitles to videos",
     "description": "The description of the application"
+  },
+
+  // UI Components
+  "pickButton": {
+    "message": "Pick video element"
+  },
+
+  // UI Text
+  "configurationText": {
+    "message": "Configuration"
+  },
+
+  "footerText": {
+    "message": "Developed by"
   }
 }

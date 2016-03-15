@@ -1,0 +1,27 @@
+.caption-window {
+  position: absolute;
+  pointer-events: none;
+  z-index: 35;
+  width: 80%;
+}
+
+.caption-anchor {
+  -webkit-transform: translate(-50%,-100%);
+  transform: translate(-50%,-100%);
+}
+
+.caption-inner {
+  font-size: 16px;
+  background-color: rgba(8, 8, 8, 0);
+}
+
+/**
+ * Remember that these styles are overrided later.
+ */
+.caption-text {
+  text-shadow: rgb(34, 34, 34) 0px 0px 4px,
+    rgb(34, 34, 34) 0px 0px 4px,
+    rgb(34, 34, 34) 0px 0px 4px,
+    rgb(34, 34, 34) 0px 0px 4px;
+  font-family: Roboto, sans-serif;
+}

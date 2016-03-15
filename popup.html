@@ -6,20 +6,20 @@
   <link rel="stylesheet" href="styles/popup.css">
 </head>
 <body>
-  <header class="header" role="banner">Subtitler</header>
+  <header class="header" role="banner">__MSG_appName__</header>
 
   <div id="content" class="content">
-    <div role="button" class="quantumButton quantumButtonDark quantumButtonRaised btn-selectVideo btn-fullWidth">
+    <div id="pick-button" role="button" class="quantumButton quantumButtonDark quantumButtonRaised btn-selectVideo btn-fullWidth">
       <div class="quantumButtonOverlay"></div>
 
       <content class="quantumButtonContent">
-        <span>Pick video element</span>
+        <span>__MSG_pickButton__</span>
       </content>
     </div>
   </div>
   
   <section id="configuration">
-    <div class="header section-header">Configuration</div>
+    <div class="header section-header">__MSG_configurationText__</div>
 
     <div class="inner">
       <input role="combobox" type="text" placeholder="1:12" class="quantumInput input-configuration">
@@ -27,9 +27,9 @@
   </section>
 
   <section id="footer">
-    <div class="header section-header">Developed by <a href="https://twitter.com/iiegor" onclick="javascript:open('http://google.com')">@iiegor</a></div>
+    <div class="header section-header">__MSG_footerText__ <a href="https://twitter.com/iiegor">@iiegor</a></div>
   </section>
 
-  <script type="text/javascript" src="scripts/base.js"></script>
+  <script type="text/javascript" src="scripts/popup.js"></script>
 </body>
 </html>
